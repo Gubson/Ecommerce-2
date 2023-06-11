@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}  
+
+/* Cabeçalho */
+
+nav {
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.escrito {
+    margin: auto;
+}
+
+.escrito form input{
+    width: 500px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Barlow', sans-serif;
+    padding: 2px;
+}
+
+.links{
+    margin: auto;
+}
+
+.links ul{
+    list-style-type: none;  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a{
+    color:white;
+    margin: 0px 5px;
+}
+
+/* Produtos */
+
+.eles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.produto{
+    background-color: grey;
+    width: 20%;
+    margin: 0px auto;
+}
+
+.imagem{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img{
+    border-radius: 10px;
+}
+
+.butao{
+    display: flex;
+    justify-content: center;
+}
+
+.butao a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color:black;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.butao a:hover{
+    transform: scale(1.4);
+}
+
+.pesquisa{
+    margin-top: 40px ;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pesquisa a:hover{
+    transform: scale(1.4);
+}
+
+/* Footer */
+
+footer{
+    margin-top: 300px;
+    background-color: lightgray;
+}
+
+.listagem{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+h2{
+    margin: 40px auto;
+}
+
+.icones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.icones i{
+    margin: 0px 5px;
+}

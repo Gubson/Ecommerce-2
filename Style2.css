@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}  
+
+/* Cabeçalho */
+
+nav {
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.escrito {
+    margin: auto;
+}
+
+.links{
+    margin: auto;
+}
+
+.links ul{
+    list-style-type: none;  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a{
+    color:white;
+    margin: 0px 5px;
+}
+
+/* Produtos */
+
+.produtin {
+    background-color: lightgray;
+    width: 50%;
+    height: 50%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 300px;
+    background-color: lightgray;
+}
+
+.listagem{
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+h2{
+    margin: 40px auto;
+}
+
+.icones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.icones i{
+    margin: 0px 5px;
+}
